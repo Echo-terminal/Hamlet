@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Hamlet</title>
+</head>
+<body>
+
+    <header>
+     <div class="Cont">
+        <h1>William Shakespeare «Hamlet»</h1>
+        <nav>
+            <ul>
+                <li><a href="#About"> About «Hamlet»</a></li>
+                <li><a href="#Reading">Stage play ( Ru / Eng )</a></li>
+                <li><a href="#Film"> Show </a></li>
+            </ul>
+        </nav>
+     </div>
+    </header>
+    <main>
+        <section class="Welcome" id="Welcome" >
+            <div class="Cont">
+                <h2>«Hamlet»!..</h2>
+                <div class="Text1">
+                    <p>
+                        Do you understand the meaning of this word? It is vast and profound: it's human life, it's a person, it's you, it's me, it's each of us, to a greater or lesser extent, in a high or humorous context, but always with a sense of pitiful and sorrowful meaning...
+                    </p>
+                    <p>
+                        © Belinskiy V. G.
+                    </p>
+                </div>
+            </div>     
+        </section>
+        <section class="About" id="About">
+            <div class="Container">
+                <h2>About «Hamlet»</h2>
+                <hr>
+                <div class="Text2">
+                    <p>
+                        "The Tragic Story of Hamlet, Prince of Denmark," or shortly "Hamlet," is a tragedy by William Shakespeare in five acts, one of his most famous plays and among the most renowned works in world drama. It was written between 1599 and 1601. It's Shakespeare's longest play, containing 4,042 lines and 29,551 words. The play is set in Denmark, where Prince Hamlet seeks revenge on his uncle Claudius for murdering his father to seize the throne and marry Hamlet's mother. This tragedy is part of the World Library (a list of the most significant works in world literature by the Norwegian Book Club, based on a survey of 100 critics and writers from various countries). 'Hamlet' was one of Shakespeare's most popular works during his lifetime and remains so to this day. It's considered one of the most adapted plots for the screen after the fairy tale 'Cinderella.'
+                    </p>
+                    <img src="./assets/image/965_o (2).jpg" alt="">
+                </div>
+        </section>
+        <section class="Reading" id="Reading">
+            <div class="Container">
+                <h2>Stage play ( Ru / Eng)</h2>
+                <hr>
+                <div class="Text3">
+                    <p>
+                        Эльсинор. Площадка перед замком.
+                        <br><br>
+                        Полночь. Франциско на своем посту. Часы бьют двенадцать. К нему подходит Бернардо.
+                        <br><br>
+                        Бернардо<br>
+                        Кто здесь?
+                        <br><br>
+                        Франциско<br>
+                        Нет, сам ты кто, сначала отвечай.
+                    </p>
+                    <div class="vl"></div>
+                    <p>
+                        Elsinore. A platform before the castle.
+                        <br><br>
+                        FRANCISCO at his post. Enter to him BERNARDO
+                        <br><br>
+                        BERNARDO<br>
+                        Who's there?
+                        <br><br>
+                        FRANCISCO<br>
+                        Nay, answer me: stand, and unfold yourself.
+                    </p>
+                </div>
+                <div class="Link">
+                    <a href="http://rushist.com/index.php/foreign-literature/5280-shekspir-gamlet-chitat-onlajn-polnostyu" target="_blank">Читать полную версию...</a>
+                    <a href="http://shakespeare.mit.edu/hamlet/full.html" target="_blank">Read full version...</a>
+                </div>
+            </div>
+        </section>
+        <section class="Film" id="Film"> 
+            <div class="Container">
+                <h2>Show</h2>
+                <hr>
+                <div class="Player">
+                    <video class="Vid" id="Video"><source src="./assets/video/Hamlet.mp4" ></video>
+                    <div class="Controls">
+                        <div class="Controls-Set">
+                            <img src="./assets/vid_controls/backward.svg" id="BackwardBtn" alt="">
+                            <img src="./assets/vid_controls/min-play.svg" id="PlayBtn" class="PlayBtn" alt="">
+                            <img src="./assets/vid_controls/forward.svg" id="ForwardBtn" alt="">
+                        </div>
+                        <input type="range" class="scroll-bar Progress" id="Progress-Bar" value="47" step="0.1">
+                        <div class="Volume-Set">
+                            <img src="./assets/vid_controls/volume.svg" class="Vol" id="Vol" alt="">
+                            <input type="range" id="Volume" class="scroll-bar Volume" min="0" max="100" step="1" value="50">
+                        </div>
+                        <div id="FullScreen">
+                            <img src="./assets/vid_controls/fullscreen.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="Table">
+            <nav>
+                <ul>
+                    <li><a href="#Welcome">Preface</a></li>
+                    <li><a href="#About">About «Hamlet»</a></li>
+                    <li><a href="#Reading">Stage play( En / Ru )</a></li>
+                    <li><a href="#Film"> Show </a></li>
+                </ul>
+            </nav>
+         </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
