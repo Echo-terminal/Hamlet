@@ -52,5 +52,5 @@ To view the webpage, simply open the `index.html` file in a web browser. The lin
 
 ## License
 
-This project is created for educational purposes as part of a university assignment and is not intended for commercial use.
+This project is created for educational purposes and is not intended for commercial use.
 ```
